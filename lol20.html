@@ -12,7 +12,64 @@
 </script>
 <title>LJoS-lol job story</title>
 <meta charset="utf-8">
-  <Link rel="stylesheet" href="style.css">
+<style>
+    body{
+      margin:0;
+    }
+
+
+
+    a{
+      color:black;
+      text-decoration:none;
+    }
+    h1{
+      font-size:45px;
+      text-align: center;
+      border-bottom:1px solid gray;
+
+      margin:0;
+      padding: 20px;
+    }
+    h4{
+      margin:0;
+    }
+
+    #grid ol {
+
+      width:100px;
+      margin:0;
+      padding:20px;
+      padding-left: 33px;
+
+    }
+    #grid{
+      display: grid;
+      grid-template-columns:150px 1fr;
+    }
+    #article{
+      border-left: 1px solid gray;
+      padding: 25px;
+    }
+
+    @media(max-width:800px){
+          h1{
+
+            border-bottom:none;
+          }
+          #grid{
+              display: block;
+          }
+          #article{
+            border-left:none;
+
+          }
+
+    }
+
+
+</style>
+</head>
 <body>
 
 <h1><a href="index.html">LJOS</A></H1>
